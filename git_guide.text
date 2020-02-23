@@ -1,0 +1,24 @@
+1. 创建--git init
+2. 创建文件夹 --touch filename
+3. 创建用户--git config --global user.name 'moso'
+	创建邮件 --git config --global user.email '18302419810@163.com'
+4. 添加到队列 --git add filename
+	正则部分上传 --git add *.java
+	全部上传 --git add .
+5. 移除队列的文件 --git rm --cached filename
+6. 提交：--Git commit 
+	git commit -m 'This is commit'
+7. 添加文件 '.gitignore'
+此文件中输入要忽略的文件
+二、分支管理
+1. 创建分支 --Git branch branchname
+2. 切换分支 --git checkout 'branchname'
+3. 合并分支
+先回到master，再输入：git merge branchname
+三、Github
+1. 创建仓库在github
+2. 创建连接 --git remote add origin https://github.com/moso520/Java.git
+3. 将本地上传到仓库 --git push -u origin master
+  下次直接git push
+4. clone git 项目 --Git clone https://github.com/moso520/Java.git
+5. 
