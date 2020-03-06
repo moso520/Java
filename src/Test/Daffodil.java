@@ -1,3 +1,5 @@
+package Test;
+
 public class Daffodil {
     public static void main(String[] args) {
         for(int i = 101; i<1000; i++){

@@ -1,3 +1,4 @@
+package Test;
 public class Task0217 {
     public static void main(String[] args) {
         //Task1

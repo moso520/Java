@@ -1,3 +1,4 @@
+package Test;
 import java.util.*;
 public class maopao {
     public static int pi(int[] Array) {

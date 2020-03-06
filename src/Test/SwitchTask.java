@@ -1,3 +1,5 @@
+package Test;
+
 import java.util.Scanner;
 public class SwitchTask {
     public static void main(String[] args) {

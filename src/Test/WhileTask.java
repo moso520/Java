@@ -1,3 +1,4 @@
+package Test;
 public class WhileTask {
     public static void main(String[] args) {
     //Task1-->Water Task

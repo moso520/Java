@@ -1,4 +1,6 @@
+package Test;
 import java.util.*;
+
 public class ArrayTask {
     public static int pi(int[] Array){
         for (int i = 0; i < Array.length; i++){
@@ -160,7 +162,7 @@ public class ArrayTask {
         }
         //Task 8
         p("Task 8");
-
+*/
         //count sushu
         int a[] = new int[25];
         //add into arr
@@ -180,6 +182,6 @@ public class ArrayTask {
                 n++;
             }
         }
-        pi(a);*/
+        pi(a);
     }
 }

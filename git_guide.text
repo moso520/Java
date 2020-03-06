@@ -9,6 +9,21 @@
 6. 提交：--Git commit 
 	git commit -m 'This is commit'
 7. 添加文件 '.gitignore'
+--------------删除自己的更改
+1. 未使用<git add>
+	git checkout -- filename      
+	或者全部恢复  git checkout .
+说明：此命令自会删除文件内的更改，不会删除新建的文件
+
+2. 已经使用<git add>
+	git reset HEAD filename 
+	或者全部恢复  git reset .
+说明：此命令将已经添加到缓存区的修改，相当于恢复到未git add
+
+3. 已经使用<git commit>
+	git reset --hard HEAD^
+
+
 此文件中输入要忽略的文件
 二、分支管理
 1. 创建分支 --Git branch branchname

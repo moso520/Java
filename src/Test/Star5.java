@@ -1,3 +1,4 @@
+package Test;
 public class Star5 {
     public static void main(String[] args) {
         for(int i = 9; i > 0; i--){
