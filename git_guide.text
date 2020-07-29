@@ -37,4 +37,4 @@
 3. 将本地上传到仓库 --git push -u origin master
   下次直接git push
 4. clone git 项目 --Git clone https://github.com/moso520/Java.git
-5. 
+5. test git reset -- hard
