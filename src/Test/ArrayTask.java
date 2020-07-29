@@ -17,6 +17,12 @@ public class ArrayTask {
         System.out.println(i);
         return 0;
     }
+    public <T> void printMsg( T... args){
+        for(T t : args){
+            System.out.printf("泛型测试","t is " + t);
+        }
+    }
+
     public static void main(String[] args) {
     //Task1
         /*

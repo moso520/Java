@@ -21,7 +21,8 @@
 说明：此命令将已经添加到缓存区的修改，相当于恢复到未git add
 
 3. 已经使用<git commit>
-	git reset --hard HEAD^
+	git reset --hard HEAD^  回退到上一个版本
+	git reset --hard "version-code"    可以使用git log 查看版本号
 
 
 此文件中输入要忽略的文件
